@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="assets/css/styles.css">
+
+        <!-- =====BOX ICONS===== -->
+        <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+
+        <title>Joaquín Borra Trussi</title>
+    </head>
+    <body>
+        <!--===== HEADER =====-->
+        <header class="l-header">
+            <nav class="nav bd-grid">
+                <div>
+                    <a href="#" class="nav__logo">Joaco!</a>
+                </div>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item"><a href="#home" class="nav__link active">Inicio</a></li>
+                        <li class="nav__item"><a href="#about" class="nav__link">Sobre Mí</a></li>
+                        <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
+                        <li class="nav__item"><a href="#work" class="nav__link">Portfolio</a></li>
+                        <li class="nav__item"><a href="#contact" class="nav__link">Contacto</a></li>
+                    </ul>
+                </div>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class='bx bx-menu'></i>
+                </div>
+            </nav>
+        </header>
+
+        <main class="l-main">
+            <!--===== HOME =====-->
+            <section class="home bd-grid" id="home">
+                <div class="home__data">
+                    <h1 class="home__title">Hola<br>Soy <span class="home__title-color">Joaquín Borra</span><br> Web Developer</h1>
+
+                    <a href="#contact" class="button">Contacto</a>
+                </div>
+
+                <div class="home__social">
+                    <a href="https://www.linkedin.com/in/joaquin-borra-trussi-8b454752/" class="home__social-icon"><i class='bx bxl-linkedin'></i></a>
+                    <a href="" class="home__social-icon"><i class='bx bxl-github' ></i></a>
+                </div>
+
+                <div class="home__img">    
+                    <img src="assets/img/iStock-1258130535-removebg.png" alt="">
+                </div>
+            </section>
+
+            <!--===== ABOUT =====-->
+            <section class="about section " id="about">
+                <h2 class="section-title">Sobre Mí</h2>
+
+                <div class="about__container bd-grid">
+                    <div class="about__img">
+                        <img src="assets/img/about.jpg" alt="">
+                    </div>
+                    
+                    <div>
+                        <h2 class="about__subtitle">Soy Joaco</h2>
+                        <p class="about__text">Hola, mi nombre es Joaquín Borra Trussi tengo 34 años y soy de Azul, Buenos Aires, Argentina. Empecé a estudiar programación hace 2 años con la inquietud de aprender nuevas tecnologías y descubrí un mundo maravilloso. Decidí enfocar mi aprendizaje en el Front-End & Desarrollo Mobile capacitandome en HTML5, CSS, Javascript y su Librería React y para el desarrollo mobile estudié Flutter con Dart y React Native. Los invito a conocer algunos de los trabajos realizados para distintos clientes de mi país.</p>           
+                    </div>                                   
+                </div>
+            </section>
+
+            <!--===== SKILLS =====-->
+            <section class="skills section" id="skills">
+                <h2 class="section-title">Skills</h2>
+
+                <div class="skills__container bd-grid">          
+                    <div>
+                        <h2 class="skills__subtitle">Desarrollo Profesional</h2>
+                        <p class="skills__text">Comenzé estudiando programación con los cursos de la plataforma Platzi. Allí aprendí las bases del desarrollo web con HTML 5, CSS y Javascript.Actualmente estoy enfocado en el desarrollo Front-end y por ello estoy estudiando React en la plataforma Udemy.</p>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class='bx bxl-html5 skills__icon'></i>
+                                <span class="skills__name">HTML5</span>
+                            </div>
+                            <div class="skills__bar skills__html">
+
+                            </div>
+                            <div>
+                                <span class="skills__percentage">95%</span>
+                            </div>
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class='bx bxl-css3 skills__icon'></i>
+                                <span class="skills__name">CSS3</span>
+                            </div>
+                            <div class="skills__bar skills__css">
+                                
+                            </div>
+                            <div>
+                                <span class="skills__percentage">85%</span>
+                            </div>
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class='bx bxl-javascript skills__icon' ></i>
+                                <span class="skills__name">JAVASCRIPT</span>
+                            </div>
+                            <div class="skills__bar skills__js">
+                                
+                            </div>
+                            <div>
+                                <span class="skills__percentage">95%</span>
+                            </div>
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class='bx bxl-react skills__icon'></i>
+                                <span class="skills__name">React</span>
+                            </div>
+                            <div class="skills__bar skills__ux">
+                                
+                            </div>
+                            <div>
+                                <span class="skills__percentage">65%</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div>              
+                        <img src="assets/img/work3.jpg" alt="" class="skills__img">
+                    </div>
+                </div>
+            </section>
+
+            <!--===== WORK =====-->
+            <section class="work section" id="work">
+                <h2 class="section-title">Portfolio</h2>
+
+                <div class="work__container bd-grid">
+                    <div class="work__img">
+                        <img src="assets/img/work1.jpg" alt="">
+                        <h5 class="work__title">Desarrollo de App Mobile Nativa</h5>
+                        <p class="work__text">Este proyecto se desarrollo una app mobile nativa para lector de codigo de barras del frigorifico gral pico s.a</p>
+                    </div>
+                    <div class="work__img">
+                        <img src="assets/img/work2.jpg" alt="">
+                        <h5 class="work__title">Proyecto Radio FM 95.1 Tapalqué</h5>
+                        <p class="work__text">En este proyecto participé del desarrollo y modificación de una de las secciones del sitio.</p>
+                    </div>
+                    <div class="work__img">
+                        <img src="assets/img/work3.jpg" alt="">
+                        <h5 class="work__title">Desarrollo Web App para Sira Diseño</h5>
+                        <p class="work__text">Este proyecto actualmente se encuentra en etapa de desarrollo como parte de ejercicios de práctica de programación. Se trata de una Web App desarrollada en React que permita mostrar los trabajos realizados por la marca.</p>
+                    </div>
+                    <div class="work__img">
+                        <img src="assets/img/react-1-282599.png" alt="">
+                        <h5 class="work__title">Curso completo de React</h5>
+                        <p class="work__text">Este curso de la plataforma Udemy es dictado por Fernado Herrera y abarca todos los temas de la librería React desde Props y Hooks hasta pruebas unitarias y rutas</p>
+                    </div>
+                    <div class="work__img">
+                        <img src="assets/img/Draw-SVG-and-Android-VectorDrawable-files-on-a-Flutter-Widget.webp" alt="">
+                        <h5 class="work__title">Curso Completo de Flutter</h5>
+                        <p class="work__text">Este curso lo realizé para poder trabajar en el desarrollo de la App nativa para lector de código de barras del Frigorífico de Gral Pico. La Pampa. Argentina.</p>
+                    </div>
+                    <div class="work__img">
+                        <img src="assets/img/work6.jpg" alt="">
+                        <h5 class="work__title">Desarrollo de App Mobile Nativa</h5>
+                        <p class="work__text">Este proyecto se desarrollo una app mobile nativa para lector de codigo de barras del frigorifico gral pico s.a</p>
+                    </div>
+                </div>
+            </section>
+            <!--===== CONTACT =====-->
+            <section class="contact section" id="contact">
+                <h2 class="section-title">Contacto</h2>
+
+                <div class="contact__container bd-grid">
+                    <form action="" class="contact__form">
+                        <input type="text" placeholder="Nombre" class="contact__input">
+                        <input type="mail" placeholder="Email" class="contact__input">
+                        <textarea name="" id="" cols="0" rows="10" class="contact__input"></textarea>
+                        <input type="button" value="Enviar" class="contact__button button">
+                    </form>
+                </div>
+            </section>
+        </main>
+
+        <!--===== FOOTER =====-->
+        <footer class="footer">
+            <p class="footer__title">Joaco!</p>
+            <div class="footer__social">
+                <a href="#" class="footer__icon"><i class='bx bxl-facebook' ></i></a>
+                <a href="#" class="footer__icon"><i class='bx bxl-instagram' ></i></a>
+                <a href="#" class="footer__icon"><i class='bx bxl-twitter' ></i></a>
+            </div>
+            <p>&#169; 2021 Todos los derechos reservados</p>
+        </footer>
+
+
+        <!--===== SCROLL REVEAL =====-->
+        <script src="https://unpkg.com/scrollreveal"></script>
+
+        <!--===== MAIN JS =====-->
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>
